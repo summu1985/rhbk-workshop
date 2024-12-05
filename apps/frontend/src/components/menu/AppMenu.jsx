@@ -16,14 +16,14 @@ const AppMenu = () => {
         {isAdmin && (
           <Menu.Item as={Link} to="/users">
             <Button color="blue" size="small">
-              <Icon name="users" /> Usuarios
+              <Icon name="users" /> Users
             </Button>
           </Menu.Item>
         )}
         {isUser && (
           <Menu.Item as={Link} to="/matches">
             <Button color="blue" size="small">
-              <Icon name="soccer" /> Partidos
+              <Icon name="soccer" /> Matches
             </Button>
           </Menu.Item>
         )}
